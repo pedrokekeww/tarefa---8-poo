@@ -5,7 +5,7 @@ public class Pessoa {
 	private double idade;
 	private String sobrenome;
 	private String sexo;
-	
+	public String formação;
 	public Pessoa(double idade) {
 		System.out.println("Bem vindo ao Sistema Academico");
 		this.idade = idade;
