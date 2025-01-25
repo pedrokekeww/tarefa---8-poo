@@ -35,6 +35,7 @@ public class Aluno extends Pessoa{
 	public String periodosleft() {
 		return "Falta " + (6-periodo) + " periodos para esse aluno finalizar seu curso.";
 	}
- public String forma(formação)
-  return "forma 1: " +this.formação+ "forma 2: " +super.formação+ "!"
+ public String forma(formação){
+  return "forma 1: " +this.formação+ "forma 2: " +super.formação+ "!";
+}
 }
